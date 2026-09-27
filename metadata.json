@@ -1,0 +1,6 @@
+{
+  "name": "IP SAKTI — Intellectual Property Knowledge Assistant",
+  "description": "A multilingual, source-backed knowledge assistant for patents, trademarks, copyright, geographical indications, traditional knowledge and related intellectual-property information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
