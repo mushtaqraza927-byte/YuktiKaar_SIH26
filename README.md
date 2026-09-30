@@ -1,4 +1,4 @@
-# ⚖️ YUKTI-KAAR (युक्ति-कार)
+# ⚖️ IP-SAKTI (आईपी-शक्ति)
 ### AI-Powered Intellectual Property (IP) Advisory & Facilitation Platform for Innovators
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 [![Tailwind CSS v4](https://img.shields.io/badge/TailwindCSS-v4-38bdf8.svg)](https://tailwindcss.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20Firestore-orange.svg)](https://firebase.google.com/)
 
-**YUKTI-KAAR** is a specialized, production-ready Intellectual Property (IP) advisory system designed to democratize IP awareness, statutory navigation, prior-art analysis, and legal facilitation for Indian innovators, startups, MSMEs, and researchers.
+**IP-SAKTI** is a specialized, production-ready Intellectual Property (IP) advisory system designed to democratize IP awareness, statutory navigation, prior-art analysis, and legal facilitation for Indian innovators, startups, MSMEs, and researchers.
 
 ---
 

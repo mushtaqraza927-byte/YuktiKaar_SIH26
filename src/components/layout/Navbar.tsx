@@ -111,13 +111,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={() => handleNavClick('/')}
               className="flex items-center gap-2 text-left group focus:outline-none"
-              aria-label="YUKTI-KAAR Home"
+              aria-label="IP-SAKTI Home"
             >
               <div className="w-8 h-8 rounded-lg bg-slate-900 flex items-center justify-center text-white font-bold text-sm tracking-wider shadow-xs group-hover:bg-slate-800 transition-colors">
-                <span className="text-amber-400 mr-0.5">Y</span>K
+                <span className="text-amber-400 mr-0.5">I</span>P
               </div>
               <span className="text-xl font-bold tracking-tight text-slate-900">
-                YUKTI-KAAR
+                IP-SAKTI
               </span>
             </button>
           </div>
@@ -145,7 +145,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             })}
           </nav>
 
-          {/* Zone 3: Actions (Language + Auth + Ask YUKTI-KAAR CTA) */}
+          {/* Zone 3: Actions (Language + Auth + Ask IP-SAKTI CTA) */}
           <div className="hidden md:flex items-center gap-2.5">
             {/* Language Selector */}
             <div className="relative" ref={dropdownRef}>

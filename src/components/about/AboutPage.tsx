@@ -14,7 +14,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onAsk }) => {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-12">
       <SectionHeading
         kicker="Mission & Principles"
-        title="About YUKTI-KAAR"
+        title="About IP-SAKTI"
         subtitle="A source-backed, multilingual intellectual property knowledge assistant designed to democratize legal literacy for Indian innovators and global creators."
       />
 
@@ -28,7 +28,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onAsk }) => {
             Intellectual property (IP) is the lifeblood of technological innovation, scientific research, and cultural heritage preservation. Yet for thousands of grassroots inventors, university students, small-scale entrepreneurs, and traditional custodians across India, navigating statutes like The Patents Act 1970 or The Biological Diversity Act 2002 remains prohibitively difficult due to fragmented documentation, dense statutory jargon, and linguistic barriers.
           </p>
           <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
-            <strong>YUKTI-KAAR</strong> was conceived to solve this foundational gap. Rather than acting as a generic conversational bot that invents plausible-sounding answers, YUKTI-KAAR operates on an uncompromising mandate: <em>every answer must be retrieved from, verified against, and cited to authentic statutory and administrative records</em>.
+            <strong>IP-SAKTI</strong> was conceived to solve this foundational gap. Rather than acting as a generic conversational bot that invents plausible-sounding answers, IP-SAKTI operates on an uncompromising mandate: <em>every answer must be retrieved from, verified against, and cited to authentic statutory and administrative records</em>.
           </p>
         </div>
 
@@ -66,12 +66,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onAsk }) => {
         </div>
       </div>
 
-      {/* Distinction: What YUKTI-KAAR Is & Is Not */}
+      {/* Distinction: What IP-SAKTI Is & Is Not */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-emerald-50/50 border border-emerald-200/80 rounded-2xl p-6 sm:p-8 space-y-3">
           <div className="flex items-center gap-2 text-emerald-800 font-bold text-base">
             <ShieldCheck className="w-5 h-5 text-emerald-600" />
-            <span>What YUKTI-KAAR Is</span>
+            <span>What IP-SAKTI Is</span>
           </div>
           <ul className="space-y-2.5 text-xs sm:text-sm text-emerald-950">
             <li className="flex items-start gap-2">
@@ -96,7 +96,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onAsk }) => {
         <div className="bg-amber-50/50 border border-amber-200/80 rounded-2xl p-6 sm:p-8 space-y-3">
           <div className="flex items-center gap-2 text-amber-800 font-bold text-base">
             <ShieldAlert className="w-5 h-5 text-amber-600" />
-            <span>What YUKTI-KAAR Is NOT</span>
+            <span>What IP-SAKTI Is NOT</span>
           </div>
           <ul className="space-y-2.5 text-xs sm:text-sm text-amber-950">
             <li className="flex items-start gap-2">
@@ -130,7 +130,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onAsk }) => {
         </div>
         <div className="text-xs sm:text-sm text-slate-600 leading-relaxed space-y-2.5">
           <p>
-            YUKTI-KAAR provides informational guidance based on publicly available statutory sources, examination guidelines, and judicial decisions. It does not constitute formal legal advice, patent prosecution counsel, or trademark agency representation.
+            IP-SAKTI provides informational guidance based on publicly available statutory sources, examination guidelines, and judicial decisions. It does not constitute formal legal advice, patent prosecution counsel, or trademark agency representation.
           </p>
           <p>
             Intellectual property statutes involve rigorous procedural deadlines, complex territorial considerations, and discretionary examination judgments. Users preparing patent specifications, filing notices of opposition, or responding to examination objections (FER) should seek the counsel of a registered patent/trademark agent or qualified legal practitioner.

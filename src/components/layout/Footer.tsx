@@ -14,10 +14,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="sm:col-span-2 lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-lg bg-white flex items-center justify-center text-slate-950 font-bold text-xs tracking-wider">
-                <span className="text-amber-600 mr-0.5">Y</span>K
+                <span className="text-amber-600 mr-0.5">I</span>P
               </div>
               <span className="text-lg font-bold text-white tracking-tight">
-                YUKTI-KAAR
+                IP-SAKTI
               </span>
             </div>
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
@@ -180,13 +180,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="flex items-start gap-3 p-3.5 rounded-lg bg-slate-900/60 border border-slate-800 text-xs text-slate-400">
             <ShieldAlert className="w-4 h-4 shrink-0 text-amber-500 mt-0.5" />
             <p className="leading-relaxed">
-              <strong className="text-slate-300">Statutory Disclaimer:</strong> YUKTI-KAAR provides informational guidance based on available statutory sources and published examination practice. It is not a substitute for professional legal advice or formal representation by a registered patent/trademark agent.
+              <strong className="text-slate-300">Statutory Disclaimer:</strong> IP-SAKTI provides informational guidance based on available statutory sources and published examination practice. It is not a substitute for professional legal advice or formal representation by a registered patent/trademark agent.
             </p>
           </div>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
             <div>
-              © 2026 YUKTI-KAAR · Intellectual Property Knowledge Assistant. All rights reserved.
+              © 2026 IP-SAKTI · Intellectual Property Knowledge Assistant. All rights reserved.
             </div>
             <div className="flex items-center gap-4">
               <span>Grounding: India Code · IP India · TKDL · NBA</span>

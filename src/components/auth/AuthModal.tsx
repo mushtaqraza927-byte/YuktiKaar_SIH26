@@ -142,10 +142,10 @@ export const AuthModal: React.FC<AuthModalProps> = ({
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <div className="w-7 h-7 rounded-lg bg-slate-900 flex items-center justify-center text-white font-bold text-xs tracking-wider">
-                <span className="text-amber-400 mr-0.5">Y</span>K
+                <span className="text-amber-400 mr-0.5">I</span>P
               </div>
               <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                YUKTI-KAAR Auth
+                IP-SAKTI Auth
               </span>
             </div>
             <h2 className="text-xl font-bold text-slate-900 pt-1">
@@ -155,7 +155,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             </h2>
             <p className="text-xs text-slate-500">
               {mode === 'signin' && 'Sign in to access your IP inquiries, saved analysis, and reports.'}
-              {mode === 'signup' && 'Join YUKTI-KAAR to preserve inquiry history and collaborate.'}
+              {mode === 'signup' && 'Join IP-SAKTI to preserve inquiry history and collaborate.'}
               {mode === 'reset' && 'Enter your registered email to receive a password reset link.'}
             </p>
           </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Send, CheckCircle2, ShieldAlert } from 'lucide-react';
 import { IPType, Jurisdiction } from '../../types';
+import { queryStore } from '../../services/queryStore';
 
 interface EscalationModalProps {
   isOpen: boolean;
@@ -34,6 +35,20 @@ export const EscalationModal: React.FC<EscalationModalProps> = ({
     const generatedId = `IP-FAC-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`;
     setReferenceId(generatedId);
     setSubmitted(true);
+
+    try {
+      queryStore.recordEscalation(
+        name,
+        email,
+        question,
+        ipType,
+        jurisdiction,
+        additionalNotes ? `Entity: ${entityType}. Notes: ${additionalNotes}` : `Entity: ${entityType}`,
+        generatedId
+      );
+    } catch (err) {
+      console.error('Failed to log escalation to queryStore:', err);
+    }
   };
 
   const handleReset = () => {

@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onAsk, onExploreKnowledge }) => {
                   <div className="w-2.5 h-2.5 rounded-full bg-slate-300" />
                   <div className="w-2.5 h-2.5 rounded-full bg-slate-300" />
                   <div className="w-2.5 h-2.5 rounded-full bg-slate-300" />
-                  <span className="ml-2 font-semibold text-slate-700">YUKTI-KAAR Assistant</span>
+                  <span className="ml-2 font-semibold text-slate-700">IP-SAKTI Assistant</span>
                 </div>
                 <div className="flex items-center gap-1.5 text-[11px] text-slate-500">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />

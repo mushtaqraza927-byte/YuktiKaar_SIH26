@@ -6,6 +6,8 @@ import { IPTypeSelector } from '../common/IPTypeSelector';
 import { AnswerCard } from './AnswerCard';
 import { EscalationModal } from '../layout/EscalationModal';
 import { useLanguage } from '../../context/LanguageContext';
+import { useAuth } from '../../context/AuthContext';
+import { queryStore } from '../../services/queryStore';
 import {
   Send,
   Sparkles,
@@ -57,6 +59,8 @@ export const AssistantWorkspace: React.FC<AssistantWorkspaceProps> = ({
     }
   }, [initialQuestion]);
 
+  const { user } = useAuth();
+
   const handleExecuteQuery = async (queryText: string) => {
     if (!queryText.trim() || loading) return;
 
@@ -68,6 +72,12 @@ export const AssistantWorkspace: React.FC<AssistantWorkspaceProps> = ({
       setCurrentAnswer(result);
       if (!history.includes(queryText.trim())) {
         setHistory((prev) => [queryText.trim(), ...prev.slice(0, 4)]);
+      }
+      // Record query in administrative store
+      try {
+        queryStore.recordFromAssistant(queryText.trim(), ipType, jurisdiction, result, user);
+      } catch (storeErr) {
+        console.error('Failed to log query to queryStore:', storeErr);
       }
     } catch (err) {
       setError('An error occurred while accessing the knowledge corpus. Please retry.');

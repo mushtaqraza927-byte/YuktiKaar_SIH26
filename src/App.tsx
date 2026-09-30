@@ -16,6 +16,7 @@ import { ExplorePage } from './components/explore/ExplorePage';
 import { KnowledgeHubPage } from './components/knowledge/KnowledgeHubPage';
 import { HowItWorksPage } from './components/howItWorks/HowItWorksPage';
 import { AboutPage } from './components/about/AboutPage';
+import { AdminDashboard } from './components/admin/AdminDashboard';
 import { IPType } from './types';
 import { LanguageProvider } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
@@ -198,6 +199,13 @@ function AppContent() {
 
         {currentPath === '/about' && (
           <AboutPage onAsk={() => navigateTo('/assistant')} />
+        )}
+
+        {currentPath === '/admin' && (
+          <AdminDashboard
+            onNavigateHome={() => navigateTo('/')}
+            onNavigateToAssistant={() => navigateTo('/assistant')}
+          />
         )}
       </main>
 

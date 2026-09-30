@@ -100,14 +100,14 @@ export const TRANSLATIONS: Record<SupportedLanguage, TranslationDictionary> = {
     navKnowledge: 'Knowledge Hub',
     navHowItWorks: 'How It Works',
     navAbout: 'About',
-    navAskCTA: 'Ask YUKTI-KAAR',
+    navAskCTA: 'Ask IP-SAKTI',
     navLanguageLabel: 'Language',
 
     heroKicker: 'Multilingual & Source-Backed IP Intelligence',
     heroHeadline: 'Your Intellectual Property Knowledge Assistant',
     heroSubtitle: 'Understand Intellectual Property with trusted, source-backed information.',
     heroDescription: 'Ask questions about patents, trademarks, geographical indications, copyright, traditional knowledge, ABS, and related IP topics grounded in statutory frameworks.',
-    heroAskCTA: 'Ask YUKTI-KAAR',
+    heroAskCTA: 'Ask IP-SAKTI',
     heroExploreCTA: 'Explore Knowledge',
     heroPreviewTitle: 'What would you like to know about IP?',
     heroInputPlaceholder: 'e.g. "What are the requirements for a patent application in India?"',
@@ -121,7 +121,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, TranslationDictionary> = {
     exploreAllDomains: 'All Domains',
 
     howKicker: 'Core Principle',
-    howTitle: 'How YUKTI-KAAR Works',
+    howTitle: 'How IP-SAKTI Works',
     howSubtitle: 'From a user\'s question to a source-backed response through a rigorous verification cycle.',
     stepAsk: 'ASK',
     stepUnderstand: 'UNDERSTAND',
@@ -150,7 +150,7 @@ export const TRANSLATIONS: Record<SupportedLanguage, TranslationDictionary> = {
     archSubtitle: 'A retrieval-augmented workflow connects user questions with relevant knowledge sources before generating a response.',
 
     useCasesKicker: 'Target Ecosystem',
-    useCasesTitle: 'Who Can Use YUKTI-KAAR?',
+    useCasesTitle: 'Who Can Use IP-SAKTI?',
     useCasesSubtitle: 'Designed to serve the diverse innovation lifecycle across academia, enterprise, and grassroots custodians.',
 
     questionsKicker: 'Practical Inquiries',
@@ -159,19 +159,19 @@ export const TRANSLATIONS: Record<SupportedLanguage, TranslationDictionary> = {
 
     ctaTitle: 'Have an IP Question?',
     ctaText: 'Explore structured, source-backed information across Indian and international intellectual-property domains.',
-    ctaButton: 'Ask YUKTI-KAAR',
+    ctaButton: 'Ask IP-SAKTI',
 
-    assistantKicker: 'YUKTI-KAAR Knowledge Assistant',
+    assistantKicker: 'IP-SAKTI Knowledge Assistant',
     assistantTitle: 'Source-Backed Intellectual Property Inquiry',
     assistantPromptLabel: 'What would you like to know about Intellectual Property?',
     assistantDomainFilter: 'Domain Filter:',
     assistantInputPlaceholderIndia: 'e.g. "What are the requirements for a patent application in India under Section 2(1)(j)?"',
     assistantInputPlaceholderIntl: 'e.g. "What are the priority timelines for global patent filings under the PCT?"',
     assistantRetrieving: 'Retrieving from Authoritative Sources...',
-    assistantEmptyTitle: 'Ask YUKTI-KAAR about Intellectual Property',
+    assistantEmptyTitle: 'Ask IP-SAKTI about Intellectual Property',
     assistantEmptyDesc: 'Inquire about patentability thresholds, trademark opposition, copyright fair dealing, traditional knowledge defenses, or biodiversity compliance.',
 
-    disclaimerText: 'YUKTI-KAAR provides informational guidance based on available sources and is not a substitute for professional legal advice.'
+    disclaimerText: 'IP-SAKTI provides informational guidance based on available sources and is not a substitute for professional legal advice.'
   },
 
   hi: {
